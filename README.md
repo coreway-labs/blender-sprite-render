@@ -288,6 +288,6 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Credits
 
-Inspired by the needs of 2D game developers working with 3D asset packs.
+Inspired by the needs of 2D game developers working with 3D asset packs like [KayKit](https://kaylousberg.itch.io/).
 
-Example assets: [Kenney](https://kenney.nl/) (CC0), [Quaternius](https://quaternius.com/) (CC0)
+Example assets: [Kenney](https://kenney.nl/) (CC0), [Quaternius](https://quaternius.com/) (CC0), [KayKit](https://kaylousberg.itch.io/) (CC0)

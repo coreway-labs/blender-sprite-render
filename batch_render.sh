@@ -100,7 +100,9 @@ echo "  Light strength: ${LIGHT_STRENGTH}"
 echo "  Canvas size: $((${ORTHO_SCALE%.*} * ${PIXELS_PER_UNIT%.*}))px (before crop)"
 echo "  Log: $LOG_FILE"
 echo ""
-echo "Estimated time: 1-3 hours (~$MODEL_COUNT models × $ROTATIONS rotations)"
+SPRITE_COUNT=$((MODEL_COUNT * ROTATIONS))
+ESTIMATED_MINS=$(( (SPRITE_COUNT * 2 + 59) / 60 ))  # ~2 sec per sprite
+echo "Estimated time: ~${ESTIMATED_MINS} minutes ($SPRITE_COUNT sprites)"
 echo ""
 
 # Confirmation
