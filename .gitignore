@@ -1,0 +1,34 @@
+# Rendered output
+rendered/
+output/
+sprites/
+*.png
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Blender
+*.blend1
+*.blend2
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test outputs
+test_sprites/
+test_output/
